@@ -1,14 +1,36 @@
-# <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="35"> Hi, I'm Jashwanth Sai
+<!-- ========================= HERO ========================= -->
 
 <p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="./dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="./light.svg">
+    <img alt="Jashwanth Sai Banner" src="./dark.svg" width="100%">
+  </picture>
+</p>
 
+<h1 align="center">Hi 👋 I'm Jashwanth Sai</h1>
+
+<h3 align="center">
 Backend Engineer • AI Developer • Cybersecurity Enthusiast
+</h3>
 
+<p align="center">
+Building secure, scalable and intelligent software.
 </p>
 
 <p align="center">
 
-Building secure, scalable and intelligent software.
+<a href="https://github.com/jashwanth0666-ai">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github">
+</a>
+
+<a href="YOUR_LINKEDIN">
+<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin">
+</a>
+
+<a href="YOUR_PORTFOLIO">
+<img src="https://img.shields.io/badge/Portfolio-000000?style=for-the-badge">
+</a>
 
 </p>
 
@@ -16,17 +38,27 @@ Building secure, scalable and intelligent software.
 
 # 🚀 About Me
 
+```text
 🎓 Final Year B.E. Computer Science Student
 
-💻 Passionate Backend Developer
+💻 Backend Development
 
-🛡 Cybersecurity Enthusiast
+🛡 Cybersecurity
 
-🤖 Artificial Intelligence Explorer
+🤖 Artificial Intelligence
 
-📱 Android Developer
+📱 Android Development
 
-🌱 Always learning new technologies
+🌱 Currently learning
+
+ • AI Agents
+ • System Design
+ • Cloud Computing
+
+🎯 Goal
+
+Build secure AI-powered products that solve real-world problems.
+```
 
 ---
 
@@ -34,114 +66,102 @@ Building secure, scalable and intelligent software.
 
 ## Languages
 
-Java
-
-Python
-
-PHP
-
-JavaScript
-
-TypeScript
-
-Kotlin
-
-SQL
-
----
+- Java
+- Python
+- PHP
+- JavaScript
+- TypeScript
+- Kotlin
+- SQL
 
 ## Backend
 
-Laravel
-
-Node.js
-
-REST APIs
-
-Authentication
-
----
+- Laravel
+- REST APIs
+- Authentication
+- Filament
 
 ## Frontend
 
-React
-
-TailwindCSS
-
-HTML
-
-CSS
-
----
+- React
+- Tailwind CSS
+- HTML5
+- CSS3
 
 ## Database
 
-MySQL
-
-PostgreSQL
-
-SQLite
-
----
+- PostgreSQL
+- MySQL
+- SQLite
 
 ## Tools
 
-Git
-
-GitHub
-
-Docker
-
-Android Studio
-
-VS Code
-
-Linux
+- Git
+- Docker
+- Linux
+- Android Studio
+- VS Code
 
 ---
 
-# 📌 Featured Projects
+# 🔥 Featured Projects
 
-## 🛡 AI Driven Phishing Detection
+## 🛡 AI-Driven Phishing Website Detection
 
-Real-time phishing website detection system using AI and cybersecurity techniques.
+AI-powered desktop application that detects phishing websites and protects users before credentials are entered.
+
+**Stack**
+
+Python • AI • Machine Learning • Cybersecurity
 
 ---
 
 ## 🎵 EchoMind Music
 
-Modern Android Music Player with AI-powered recommendation system.
+Modern Android music player featuring intelligent recommendations and analytics.
+
+**Stack**
+
+Android • Java • Media3
 
 ---
 
 ## 🏨 Sai Homestay
 
-Modern booking platform inspired by Hampi tourism.
+Tourism booking platform inspired by Hampi.
+
+**Stack**
+
+Laravel • PostgreSQL • Tailwind CSS
 
 ---
 
-## 🛒 Laravel Ecommerce
+## 🛒 Laravel E-Commerce
 
-Scalable ecommerce platform built using Laravel + Filament.
+Secure and scalable e-commerce platform.
+
+**Stack**
+
+Laravel • Filament • PostgreSQL
 
 ---
 
-# 📈 GitHub Stats
+# 📈 GitHub Analytics
 
-(Add GitHub stats here in the next milestone.)
+(Add in the next milestone)
 
 ---
 
 # 📫 Connect
 
-GitHub
-
-LinkedIn
-
-Portfolio
-
-Email
+- GitHub
+- LinkedIn
+- Portfolio
 
 ---
 
-> Secure Code • Smart Systems • Continuous Learning
+<p align="center">
+
+"Secure Code • Intelligent Systems • Continuous Learning"
+
+</p>
