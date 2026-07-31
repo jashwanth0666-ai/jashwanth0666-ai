@@ -1,0 +1,145 @@
+<svg width="1600" height="500" viewBox="0 0 1600 500" xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+
+    <!-- Background -->
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="50%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0D1117"/>
+    </linearGradient>
+
+    <!-- Blue Glow -->
+    <radialGradient id="blueGlow">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Purple Glow -->
+    <radialGradient id="purpleGlow">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.8"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Text Glow -->
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="4" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+  </defs>
+
+  <!-- Background -->
+  <rect width="1600" height="500" fill="url(#bg)"/>
+
+  <!-- Decorative Glow -->
+  <circle cx="250" cy="120" r="140" fill="url(#blueGlow)">
+      <animate attributeName="r"
+               values="130;150;130"
+               dur="6s"
+               repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="1320" cy="380" r="170" fill="url(#purpleGlow)">
+      <animate attributeName="r"
+               values="170;190;170"
+               dur="8s"
+               repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Circuit Lines -->
+  <g stroke="#38BDF8" stroke-opacity="0.18" stroke-width="2" fill="none">
+
+      <path d="M0 120 H320 L420 220 H760"/>
+
+      <path d="M1600 340 H1280 L1160 240 H880"/>
+
+      <path d="M180 470 V330 H430"/>
+
+      <path d="M1480 40 V160 H1210"/>
+
+  </g>
+
+  <!-- AI Nodes -->
+  <g fill="#38BDF8">
+
+      <circle cx="320" cy="120" r="6">
+          <animate attributeName="r"
+                   values="5;8;5"
+                   dur="2s"
+                   repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="420" cy="220" r="6">
+          <animate attributeName="r"
+                   values="5;8;5"
+                   dur="3s"
+                   repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1160" cy="240" r="6">
+          <animate attributeName="r"
+                   values="5;8;5"
+                   dur="2.5s"
+                   repeatCount="indefinite"/>
+      </circle>
+
+      <circle cx="1280" cy="340" r="6">
+          <animate attributeName="r"
+                   values="5;8;5"
+                   dur="4s"
+                   repeatCount="indefinite"/>
+      </circle>
+
+  </g>
+
+  <!-- Name -->
+  <text
+      x="800"
+      y="170"
+      text-anchor="middle"
+      font-size="58"
+      font-family="Space Grotesk, Arial"
+      fill="#F8FAFC"
+      font-weight="700"
+      filter="url(#glow)">
+      JASHWANTH SAI
+  </text>
+
+  <!-- Subtitle -->
+  <text
+      x="800"
+      y="225"
+      text-anchor="middle"
+      font-size="28"
+      fill="#38BDF8"
+      font-family="Inter, Arial">
+      Backend Engineer • AI Developer • Cybersecurity Enthusiast
+  </text>
+
+  <!-- Tagline -->
+  <text
+      x="800"
+      y="275"
+      text-anchor="middle"
+      font-size="22"
+      fill="#C9D1D9"
+      font-family="Inter, Arial">
+      Building Secure, Scalable & Intelligent Software
+  </text>
+
+  <!-- Tech Stack -->
+  <text
+      x="800"
+      y="340"
+      text-anchor="middle"
+      font-size="18"
+      fill="#8B5CF6"
+      font-family="JetBrains Mono, monospace">
+      Laravel • PHP • Java • Python • React • PostgreSQL
+  </text>
+
+</svg>
