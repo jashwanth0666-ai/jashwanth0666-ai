@@ -17,14 +17,18 @@
 </p>
 
 <p align="center">
+  Sci-Fi Luxury Interface • Holographic Scanline Aesthetic • Gold-Cyber Accents
+</p>
+
+<p align="center">
   <a href="https://github.com/jashwanth0666-ai">
-    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="GitHub" src="https://img.shields.io/badge/GitHub-050505?style=for-the-badge&logo=github&logoColor=F7E7B5">
   </a>
   <a href="https://github.com/jashwanth0666-ai?tab=repositories">
-    <img alt="Repositories" src="https://img.shields.io/badge/Projects-161B22?style=for-the-badge&logo=github&logoColor=38BDF8">
+    <img alt="Repositories" src="https://img.shields.io/badge/Projects-14110A?style=for-the-badge&logo=github&logoColor=7DD3FC">
   </a>
   <a href="https://komarev.com/ghpvc/?username=jashwanth0666-ai">
-    <img alt="Profile views" src="https://komarev.com/ghpvc/?username=jashwanth0666-ai&style=for-the-badge&color=38BDF8">
+    <img alt="Profile views" src="https://komarev.com/ghpvc/?username=jashwanth0666-ai&style=for-the-badge&color=D4AF37">
   </a>
 </p>
 
@@ -173,8 +177,8 @@ CGPA: 7.9
 ## GitHub Analytics
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jashwanth0666-ai&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=38BDF8&text_color=F8FAFC&icon_color=8B5CF6" alt="GitHub stats">
-  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanth0666-ai&theme=transparent&hide_border=true&stroke=38BDF8&ring=8B5CF6&fire=22C55E&currStreakNum=F8FAFC&sideNums=F8FAFC&currStreakLabel=38BDF8" alt="GitHub streak stats">
+  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jashwanth0666-ai&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=D4AF37&text_color=F7E7B5&icon_color=7DD3FC" alt="GitHub stats">
+  <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanth0666-ai&theme=transparent&hide_border=true&stroke=7DD3FC&ring=D4AF37&fire=38BDF8&currStreakNum=F7E7B5&sideNums=F7E7B5&currStreakLabel=7DD3FC" alt="GitHub streak stats">
 </p>
 
 <p align="center">
@@ -204,7 +208,7 @@ CGPA: 7.9
 
 <p align="center">
   <a href="https://github.com/jashwanth0666-ai">
-    <img alt="GitHub profile" src="https://img.shields.io/badge/Connect_on_GitHub-0D1117?style=for-the-badge&logo=github&logoColor=white">
+    <img alt="GitHub profile" src="https://img.shields.io/badge/Connect_on_GitHub-050505?style=for-the-badge&logo=github&logoColor=F7E7B5">
   </a>
 </p>
 
@@ -231,5 +235,5 @@ If you want to collaborate on backend systems, AI security tooling, or product e
 </p>
 
 <p align="center">
-  Secure Code • Intelligent Systems • Continuous Learning
+  Secure Code • Sci-Fi Luxury Design • Intelligent Systems • Continuous Learning
 </p>
