@@ -1,122 +1,178 @@
-<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Dark profile banner for Jashwanth Sai">
+<svg width="1600" height="500" viewBox="0 0 1600 500" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Luxury dark profile banner for Jashwanth Sai">
     <defs>
-        <!-- Background gradients -->
+        <!-- Luxury background -->
         <linearGradient id="bgGradient" x1="0" y1="0" x2="1600" y2="500" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#0D1117">
-                <animate attributeName="stop-color" values="#0D1117;#111827;#0D1117" dur="12s" repeatCount="indefinite" />
+            <stop offset="0%" stop-color="#060606">
+                <animate attributeName="stop-color" values="#060606;#14110A;#060606" dur="16s" repeatCount="indefinite" />
             </stop>
-            <stop offset="100%" stop-color="#161B22">
-                <animate attributeName="stop-color" values="#161B22;#0F172A;#161B22" dur="12s" repeatCount="indefinite" />
+            <stop offset="100%" stop-color="#191714">
+                <animate attributeName="stop-color" values="#191714;#0D0D0D;#191714" dur="16s" repeatCount="indefinite" />
             </stop>
         </linearGradient>
 
-        <radialGradient id="blueGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9" />
+        <radialGradient id="goldAura" cx="50%" cy="50%" r="50%">
+            <stop offset="0%" stop-color="#E8C76B" stop-opacity="0.58" />
+            <stop offset="100%" stop-color="#E8C76B" stop-opacity="0" />
+        </radialGradient>
+
+        <linearGradient id="goldStroke" x1="500" y1="80" x2="1100" y2="420" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#F7E7B5" />
+            <stop offset="40%" stop-color="#D4AF37" />
+            <stop offset="100%" stop-color="#8A6B1F" />
+        </linearGradient>
+
+        <linearGradient id="cardFill" x1="520" y1="92" x2="1080" y2="408" gradientUnits="userSpaceOnUse">
+            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.10" />
+            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.03" />
+        </linearGradient>
+
+        <linearGradient id="scanBeam" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+            <stop offset="50%" stop-color="#7DD3FC" stop-opacity="1" />
             <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
-        </radialGradient>
-
-        <radialGradient id="purpleGlow" cx="50%" cy="50%" r="50%">
-            <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.85" />
-            <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0" />
-        </radialGradient>
-
-        <linearGradient id="cardGradient" x1="560" y1="110" x2="1040" y2="390" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#FFFFFF" stop-opacity="0.12" />
-            <stop offset="100%" stop-color="#FFFFFF" stop-opacity="0.04" />
         </linearGradient>
 
-        <!-- Glow and blur filters -->
+        <linearGradient id="scanEdge" x1="0" y1="0" x2="1" y2="0">
+            <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+            <stop offset="45%" stop-color="#CFFAFE" stop-opacity="0.95" />
+            <stop offset="55%" stop-color="#CFFAFE" stop-opacity="0.95" />
+            <stop offset="100%" stop-color="#38BDF8" stop-opacity="0" />
+        </linearGradient>
+
+        <!-- Depth and glow -->
+        <filter id="cardShadow" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#000000" flood-opacity="0.5" />
+        </filter>
+
         <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="4" result="blur" />
+            <feGaussianBlur stdDeviation="2.8" result="blur" />
             <feMerge>
                 <feMergeNode in="blur" />
                 <feMergeNode in="SourceGraphic" />
             </feMerge>
         </filter>
 
-        <filter id="softShadow" x="-20%" y="-20%" width="140%" height="140%">
-            <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#000000" flood-opacity="0.35" />
+        <filter id="auraBlur" x="-20%" y="-20%" width="140%" height="140%">
+            <feGaussianBlur stdDeviation="38" />
         </filter>
 
-        <filter id="blur40" x="-20%" y="-20%" width="140%" height="140%">
-            <feGaussianBlur stdDeviation="40" />
-        </filter>
-
-        <!-- Circuit pattern -->
-        <g id="circuitLine" stroke="#38BDF8" stroke-opacity="0.20" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M0 100 H300 L380 180 H700" />
-            <path d="M1600 340 H1290 L1210 260 H940" />
-            <path d="M220 500 V340 H500" />
-            <path d="M1450 0 V140 H1220" />
+        <!-- Reusable network line -->
+        <g id="networkLine" stroke="#D4AF37" stroke-opacity="0.2" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M0 110 H290 L375 190 H700" />
+            <path d="M1600 330 H1310 L1225 250 H930" />
+            <path d="M190 500 V340 H470" />
+            <path d="M1455 0 V150 H1240" />
         </g>
 
-        <!-- Node symbol -->
-        <g id="node">
-            <circle cx="0" cy="0" r="6" fill="#38BDF8">
-                <animate attributeName="r" values="6;9;6" dur="3s" repeatCount="indefinite" />
+        <!-- Reusable node -->
+        <g id="networkNode">
+            <circle cx="0" cy="0" r="5" fill="#E8C76B">
+                <animate attributeName="r" values="5;7.2;5" dur="3.6s" repeatCount="indefinite" />
             </circle>
-            <circle cx="0" cy="0" r="16" fill="#38BDF8" fill-opacity="0.15">
-                <animate attributeName="r" values="14;20;14" dur="3s" repeatCount="indefinite" />
+            <circle cx="0" cy="0" r="14" fill="#E8C76B" fill-opacity="0.15">
+                <animate attributeName="r" values="14;18;14" dur="3.6s" repeatCount="indefinite" />
             </circle>
         </g>
+
+        <clipPath id="cardClip">
+            <rect x="532" y="104" width="536" height="292" rx="22" />
+        </clipPath>
+
+        <mask id="scanMask" maskUnits="userSpaceOnUse" x="532" y="104" width="536" height="292">
+            <rect x="532" y="104" width="536" height="292" fill="black" />
+            <rect x="460" y="104" width="170" height="292" fill="url(#scanBeam)">
+                <animate attributeName="x" values="460;980;460" dur="8s" repeatCount="indefinite" />
+            </rect>
+            <rect x="450" y="104" width="34" height="292" fill="url(#scanEdge)">
+                <animate attributeName="x" values="450;1010;450" dur="8s" repeatCount="indefinite" />
+            </rect>
+        </mask>
     </defs>
 
-    <!-- Base background -->
+    <!-- Base layer -->
     <rect width="1600" height="500" fill="url(#bgGradient)" />
 
-    <!-- Ambient glows -->
-    <circle cx="220" cy="110" r="170" fill="url(#blueGlow)" filter="url(#blur40)">
-        <animate attributeName="r" values="155;185;155" dur="8s" repeatCount="indefinite" />
+    <!-- Soft auras -->
+    <circle cx="250" cy="120" r="180" fill="url(#goldAura)" filter="url(#auraBlur)">
+        <animate attributeName="r" values="165;195;165" dur="9s" repeatCount="indefinite" />
     </circle>
-    <circle cx="1370" cy="360" r="210" fill="url(#purpleGlow)" filter="url(#blur40)">
-        <animate attributeName="r" values="190;225;190" dur="10s" repeatCount="indefinite" />
+    <circle cx="1340" cy="360" r="210" fill="url(#goldAura)" filter="url(#auraBlur)">
+        <animate attributeName="r" values="195;230;195" dur="11s" repeatCount="indefinite" />
     </circle>
 
     <!-- Floating particles -->
-    <g opacity="0.85">
-        <circle cx="120" cy="80" r="2" fill="#F8FAFC">
-            <animate attributeName="cy" values="80;68;80" dur="6s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="0.4;0.9;0.4" dur="6s" repeatCount="indefinite" />
+    <g opacity="0.9" fill="#F7E7B5">
+        <circle cx="110" cy="78" r="1.8">
+            <animate attributeName="cy" values="78;65;78" dur="6.5s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.3;0.9;0.3" dur="6.5s" repeatCount="indefinite" />
         </circle>
-        <circle cx="310" cy="390" r="2.5" fill="#38BDF8">
-            <animate attributeName="cy" values="390;378;390" dur="7s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="0.35;0.85;0.35" dur="7s" repeatCount="indefinite" />
+        <circle cx="300" cy="390" r="2.2">
+            <animate attributeName="cy" values="390;376;390" dur="7.3s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.28;0.85;0.28" dur="7.3s" repeatCount="indefinite" />
         </circle>
-        <circle cx="1220" cy="110" r="2.5" fill="#8B5CF6">
-            <animate attributeName="cy" values="110;96;110" dur="8s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="0.3;0.8;0.3" dur="8s" repeatCount="indefinite" />
+        <circle cx="1210" cy="116" r="2.1">
+            <animate attributeName="cy" values="116;102;116" dur="8.1s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.26;0.82;0.26" dur="8.1s" repeatCount="indefinite" />
         </circle>
-        <circle cx="1460" cy="240" r="2" fill="#22C55E">
-            <animate attributeName="cy" values="240;228;240" dur="5.5s" repeatCount="indefinite" />
-            <animate attributeName="opacity" values="0.25;0.75;0.25" dur="5.5s" repeatCount="indefinite" />
+        <circle cx="1470" cy="245" r="1.9">
+            <animate attributeName="cy" values="245;233;245" dur="6.1s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.22;0.76;0.22" dur="6.1s" repeatCount="indefinite" />
         </circle>
     </g>
 
-    <!-- Circuit network -->
-    <use href="#circuitLine" />
-    <g transform="translate(0 0)">
-        <use href="#node" transform="translate(300 100)" />
-        <use href="#node" transform="translate(380 180)" />
-        <use href="#node" transform="translate(1210 260)" />
-        <use href="#node" transform="translate(1290 340)" />
+    <!-- Network -->
+    <use href="#networkLine" />
+    <use href="#networkNode" transform="translate(290 110)" />
+    <use href="#networkNode" transform="translate(375 190)" />
+    <use href="#networkNode" transform="translate(1225 250)" />
+    <use href="#networkNode" transform="translate(1310 330)" />
+
+    <!-- Luxury frame -->
+    <g filter="url(#cardShadow)">
+        <rect x="520" y="92" width="560" height="316" rx="30" fill="url(#cardFill)" stroke="url(#goldStroke)" stroke-opacity="0.75" />
+        <rect x="532" y="104" width="536" height="292" rx="22" fill="none" stroke="#F7E7B5" stroke-opacity="0.25" />
     </g>
 
-    <!-- Glass card -->
-    <g filter="url(#softShadow)">
-        <rect x="520" y="92" width="560" height="316" rx="28" fill="url(#cardGradient)" stroke="#FFFFFF" stroke-opacity="0.16" />
-        <rect x="520" y="92" width="560" height="316" rx="28" fill="none" stroke="#38BDF8" stroke-opacity="0.08" />
+    <!-- ASCII scanning overlay -->
+    <g clip-path="url(#cardClip)">
+        <g mask="url(#scanMask)" opacity="0.95" fill="#CFFAFE" font-family="JetBrains Mono, Consolas, monospace" font-size="12" letter-spacing="1.1">
+            <text x="548" y="138">[SCAN_INIT] 01001010 01100001 01110011 01101000 01110111 01100001 01101110 01110100 01101000</text>
+            <text x="548" y="162">[NODE_BACKEND] 01100010 01100001 01100011 01101011 01100101 01101110 01100100 01011111 01110011</text>
+            <text x="548" y="186">[NODE_SECURE] 01100011 01110101 01110010 01100101 01011111 01100011 01101111 01100100 01100101</text>
+            <text x="548" y="210">[NODE_AI] 01100001 01101001 01011111 01100100 01100101 01110110 01011111 01110011 01111001 01110011</text>
+            <text x="548" y="234">[LATENCY] 006ms [AUTH] PASS [TLS] ACTIVE [ANOMALY] 0.002</text>
+            <text x="548" y="258">[THREAT_MAP] SAFE SAFE SAFE SAFE WATCH SAFE SAFE SAFE</text>
+            <animateTransform attributeName="transform" type="translate" values="-120 0;120 0;-120 0" dur="18s" repeatCount="indefinite" />
+            <animate attributeName="opacity" values="0.82;0.95;0.74;0.95;0.86" dur="0.45s" repeatCount="indefinite" />
+        </g>
+        <rect x="460" y="104" width="170" height="292" fill="url(#scanBeam)" opacity="0.22">
+            <animate attributeName="x" values="460;980;460" dur="8s" repeatCount="indefinite" />
+        </rect>
+        <rect x="450" y="104" width="34" height="292" fill="url(#scanEdge)" opacity="0.34">
+            <animate attributeName="x" values="450;1010;450" dur="8s" repeatCount="indefinite" />
+        </rect>
+
+        <!-- Radar pulse -->
+        <g transform="translate(1018 150)">
+            <circle cx="0" cy="0" r="12" fill="none" stroke="#7DD3FC" stroke-opacity="0.85" stroke-width="1.8" />
+            <circle cx="0" cy="0" r="12" fill="none" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.4">
+                <animate attributeName="r" values="12;44" dur="2.7s" repeatCount="indefinite" />
+                <animate attributeName="stroke-opacity" values="0.55;0" dur="2.7s" repeatCount="indefinite" />
+            </circle>
+            <circle cx="0" cy="0" r="3" fill="#CFFAFE">
+                <animate attributeName="opacity" values="0.7;1;0.7" dur="0.9s" repeatCount="indefinite" />
+            </circle>
+        </g>
     </g>
 
-    <!-- Hero text -->
-    <text x="800" y="170" text-anchor="middle" font-size="60" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="800" fill="#F8FAFC" filter="url(#textGlow)">Jashwanth Sai</text>
-    <text x="800" y="220" text-anchor="middle" font-size="28" font-family="Inter, Segoe UI, Arial, sans-serif" font-weight="600" fill="#38BDF8">Backend Engineer • AI Developer • Cybersecurity Enthusiast</text>
-    <text x="800" y="268" text-anchor="middle" font-size="22" font-family="Inter, Segoe UI, Arial, sans-serif" fill="#C9D1D9">Building Secure, Scalable &amp; Intelligent Software.</text>
+    <!-- Signature text -->
+    <text x="800" y="170" text-anchor="middle" font-size="62" font-family="Cinzel, Georgia, Times New Roman, serif" font-weight="700" letter-spacing="1.2" fill="#F7E7B5" filter="url(#textGlow)">Jashwanth Sai</text>
+    <text x="800" y="268" text-anchor="middle" font-size="21" font-family="Inter, Segoe UI, Arial, sans-serif" fill="#E5D8B0">Building Secure, Scalable &amp; Intelligent Software.</text>
 
-    <!-- Accent bar -->
-    <rect x="665" y="300" width="270" height="4" rx="2" fill="#8B5CF6" />
-    <rect x="710" y="312" width="180" height="4" rx="2" fill="#38BDF8" />
-    <rect x="745" y="324" width="110" height="4" rx="2" fill="#22C55E" />
+    <!-- Elegant divider -->
+    <path d="M665 307 H935" stroke="url(#goldStroke)" stroke-width="3.5" stroke-linecap="round" />
+    <circle cx="800" cy="307" r="5" fill="#F7E7B5" />
 
-    <!-- Stack line -->
-    <text x="800" y="360" text-anchor="middle" font-size="18" font-family="JetBrains Mono, Consolas, monospace" fill="#8B5CF6">Laravel • PHP • Java • Python • React • PostgreSQL</text>
+    <!-- Stack label -->
+    <text x="800" y="356" text-anchor="middle" font-size="17.5" font-family="JetBrains Mono, Consolas, monospace" fill="#D4AF37">Laravel • PHP • Java • Python • React • PostgreSQL</text>
 </svg>
