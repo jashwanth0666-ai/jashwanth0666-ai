@@ -1,0 +1,32 @@
+name: Metrics Snapshot
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 4 * * 1"
+
+permissions:
+  contents: write
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Update metrics card
+        run: |
+          cat > assets/metrics.svg <<'EOF'
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 180" role="img" aria-label="Metrics card">
+            <rect width="1200" height="180" rx="24" fill="#0D1117" stroke="#38BDF8" stroke-opacity="0.18"/>
+            <text x="600" y="82" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="700">GitHub Metrics</text>
+            <text x="600" y="118" text-anchor="middle" fill="#38BDF8" font-family="Inter, Arial, sans-serif" font-size="16">Updated by GitHub Actions</text>
+          </svg>
+          EOF
+
+      - name: Commit and push if changed
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: refresh metrics card"
+          file_pattern: assets/metrics.svg

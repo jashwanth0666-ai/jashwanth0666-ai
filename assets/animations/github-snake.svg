@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 200" role="img" aria-label="GitHub contribution snake animation">
+  <rect width="1200" height="200" rx="24" fill="#0D1117"/>
+  <g fill="#38BDF8" opacity="0.95">
+    <circle cx="140" cy="120" r="10"/>
+    <circle cx="180" cy="120" r="10"/>
+    <circle cx="220" cy="120" r="10"/>
+    <circle cx="260" cy="100" r="10"/>
+    <circle cx="300" cy="80" r="10"/>
+    <circle cx="340" cy="80" r="10"/>
+    <circle cx="380" cy="100" r="10"/>
+    <circle cx="420" cy="120" r="10"/>
+    <circle cx="460" cy="140" r="10"/>
+    <circle cx="500" cy="140" r="10"/>
+    <circle cx="540" cy="120" r="10"/>
+    <circle cx="580" cy="100" r="10"/>
+  </g>
+  <text x="600" y="164" text-anchor="middle" fill="#F8FAFC" font-family="Inter, Arial, sans-serif" font-size="18">Contribution Snake Animation</text>
+</svg>
