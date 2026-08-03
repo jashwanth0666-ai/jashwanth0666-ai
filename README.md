@@ -162,15 +162,15 @@ CGPA: 7.9
 
 --- -->
 
-## GitHub Analytics
+<!-- ## GitHub Analytics -->
 
 <p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=jashwanth0666-ai&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=D4AF37&text_color=F7E7B5&icon_color=7DD3FC" alt="GitHub stats">
+  <!-- <img height="165" src="https://github-readme-stats.vercel.app/api?username=jashwanth0666-ai&show_icons=true&hide_border=true&count_private=true&theme=transparent&title_color=D4AF37&text_color=F7E7B5&icon_color=7DD3FC" alt="GitHub stats"> -->
   <img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=jashwanth0666-ai&theme=transparent&hide_border=true&stroke=7DD3FC&ring=D4AF37&fire=38BDF8&currStreakNum=F7E7B5&sideNums=F7E7B5&currStreakLabel=7DD3FC" alt="GitHub streak stats">
 </p>
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanth0666-ai&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph">
+  <!-- <img src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanth0666-ai&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph"> -->
 </p>
 
 <!-- <p align="center">
@@ -191,16 +191,16 @@ CGPA: 7.9
 - Maintained a consistent focus on code clarity, performance, and defensive defaults
 
 --- -->
-
+<!-- 
 ## Contact
 
 <p align="center">
   <a href="https://github.com/jashwanth0666-ai">
     <img alt="GitHub profile" src="https://img.shields.io/badge/Connect_on_GitHub-050505?style=for-the-badge&logo=github&logoColor=F7E7B5">
   </a>
-</p>
+</p> -->
 
-If you want to collaborate on backend systems, AI security tooling, or product engineering, GitHub is the most direct place to reach me.
+<!-- If you want to collaborate on backend systems, AI security tooling, or product engineering, GitHub is the most direct place to reach me. -->
 
 ---
 
@@ -222,6 +222,6 @@ If you want to collaborate on backend systems, AI security tooling, or product e
   <img src="./assets/animations/github-snake.svg" alt="GitHub contribution snake animation" width="100%">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   Secure Code • Sci-Fi Luxury Design • Intelligent Systems • Continuous Learning
-</p>
+</p> -->
