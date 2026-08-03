@@ -9,18 +9,6 @@
 <h1 align="center">Jashwanth Sai</h1>
 
 <p align="center">
-  Backend Engineer • Software Engineer • AI Developer • Cybersecurity Enthusiast
-</p>
-
-<p align="center">
-  Building Secure, Scalable &amp; Intelligent Software.
-</p>
-
-<p align="center">
-  Sci-Fi Luxury Interface • Holographic Scanline Aesthetic • Gold-Cyber Accents
-</p>
-
-<p align="center">
   <a href="https://github.com/jashwanth0666-ai">
     <img alt="GitHub" src="https://img.shields.io/badge/GitHub-050505?style=for-the-badge&logo=github&logoColor=F7E7B5">
   </a>
@@ -34,7 +22,7 @@
 
 ---
 
-## About Me
+<!-- ## About Me
 
 I build backend-first systems with a strong bias toward security, clarity, and long-term maintainability. My work sits at the intersection of distributed systems, clean architecture, and AI-assisted products that need to feel fast and dependable.
 
@@ -47,9 +35,9 @@ I am currently studying Computer Science &amp; Engineering at MIT Kundapura whil
 | Security            | Secure defaults, phishing resistance, HTTPS, SSL/TLS, and access control        |
 | AI                  | Practical AI workflows for detection, classification, and user protection       |
 
----
+--- -->
 
-## Current Mission
+<!-- ## Current Mission
 
 I am building an AI-driven phishing website detection and secure control access system for desktop users. The goal is simple: detect risky pages in real time, keep users protected while browsing, and present warnings that are immediate, understandable, and hard to ignore.
 
@@ -106,9 +94,9 @@ I am building an AI-driven phishing website detection and secure control access 
   </tr>
 </table>
 
----
+--- -->
 
-## Featured Projects
+<!-- ## Featured Projects
 
 ### Distributed File Sharing System
 
@@ -172,7 +160,7 @@ CGPA: 7.9
 - Python
 - HTML
 
----
+--- -->
 
 ## GitHub Analytics
 
@@ -185,24 +173,24 @@ CGPA: 7.9
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=jashwanth0666-ai&theme=github-compact&hide_border=true&area=true&custom_title=Contribution%20Graph" alt="Contribution graph">
 </p>
 
-<p align="center">
+<!-- <p align="center">
   <img src="./assets/metrics.svg" alt="Metrics card" width="100%">
 </p>
 
 <p align="center">
   <img src="./assets/visitor-counter.svg" alt="Visitor counter" width="100%">
-</p>
+</p> -->
 
 ---
 
-## Achievements
+<!-- ## Achievements
 
 - Shipped a secure LAN file-sharing concept with encrypted transport and access control
 - Built a college payment platform with live status visibility and automated receipts
 - Advanced a phishing-detection desktop application with real-time protection goals
 - Maintained a consistent focus on code clarity, performance, and defensive defaults
 
----
+--- -->
 
 ## Contact
 
@@ -216,7 +204,7 @@ If you want to collaborate on backend systems, AI security tooling, or product e
 
 ---
 
-## Project Cards
+<!-- ## Project Cards
 
 <table>
   <tr>
@@ -228,7 +216,7 @@ If you want to collaborate on backend systems, AI security tooling, or product e
   </tr>
 </table>
 
----
+--- -->
 
 <p align="center">
   <img src="./assets/animations/github-snake.svg" alt="GitHub contribution snake animation" width="100%">
